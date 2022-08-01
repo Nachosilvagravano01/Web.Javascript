@@ -1,26 +1,26 @@
 
 
-// function nombreCompleto() {
-//     let nombre = prompt ("Ingrese su nombre")
-//     let apellido = prompt("Ingrese su apellido")
-//     let datosCompletos = "Buenas " + nombre + apellido  
-//     return datosCompletos 
-// }
-//  function nacionalidad(){
-//   let pesoAr = Number(130.68)
-//   let pesoUy = Number(40,55000)
-//   let monto  = prompt("Ingrese la cantidad de dolares que quiere comprar") 
-//   let valor = prompt ("Ingrese su nacionalidad")
-//   if (valor == "Uruguay"){
-//     return (Number( monto * pesoUy) + " Pesos Uruguayos ")
-//   }
-//   else if (valor == "Argentina"){
-//     return ( Number ( monto * pesoAr) +  " Pesos Argentinos ")
-//   }
-//   else return " Error: No teneoms informacion de la moneda de su nacion"
-// }
+function nombreCompleto() {
+    let nombre = prompt ("Ingrese su nombre")
+    let apellido = prompt("Ingrese su apellido")
+    let datosCompletos = "Buenas " + nombre + apellido  
+    return datosCompletos 
+}
+ function nacionalidad(){
+  let pesoAr = Number(130.68)
+  let pesoUy = Number(40,55000)
+  let monto  = prompt("Ingrese la cantidad de dolares que quiere comprar") 
+  let valor = prompt ("Ingrese su nacionalidad")
+  if (valor == "Uruguay"){
+    return (Number( monto * pesoUy) + " Pesos Uruguayos ")
+  }
+  else if (valor == "Argentina"){
+    return ( Number ( monto * pesoAr) +  " Pesos Argentinos ")
+  }
+  else return " Error: No teneoms informacion de la moneda de su nacion"
+}
 
-// console.log(nombreCompleto()+":" + " Usted debe abonar " +  nacionalidad())
+console.log(nombreCompleto()+":" + " Usted debe abonar " +  nacionalidad())
    
    
 
@@ -94,12 +94,3 @@
 //     this.edad++
 // }
 // }
-
- var a = 5;
- a=10
- console.log(a)
-
- const b = 15
-  
- console.log(b)
-
